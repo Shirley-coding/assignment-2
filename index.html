@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Photo Gallery</title>
+<link rel="stylesheet" href="style.css">
+<style>
+*{box-sizing:border-box;
+	margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#box {
+	 border:2px solid black;
+	 width: 90%;
+	 margin-right: auto;
+	 margin-left: auto;
+}
+
+#MenuTag {
+	background-color: lightgreen;
+	font-family:Arial, serif;
+	font-weight:bold;
+	color:blue;
+	font-size: 150%;
+	float: right; 
+	position:relative;
+	top: 0px;
+	right: 0px;
+	width: auto;
+	hight: 20px;
+	margin-top:0px;
+	margin-bottom:15px;
+}
+
+section {
+	clear: right;
+	margin-left:15px;
+	Margin-right:15px;
+}
+
+.row {
+	width:100%;
+}
+
+@media (min-width: 800px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+		//border: 1px solid green;
+	    }
+.col-lg-1 {width: 8.33%}
+.col-lg-2 {width: 16.66%}
+.col-lg-3 {width: 25%}
+.col-lg-4 {width: 33.33%}
+.col-lg-5 {width: 41.66%}
+.col-lg-6 {width: 50%}
+.col-lg-7 {width:58.33%}
+.col-lg-8 {width:66.66%}
+.col-lg-9 {width:74.99%}
+.col-lg-10 {width:83.33%}
+.col-lg-11 {width:91.66%}
+.col-lg-12 {width:100%}
+}
+
+</style>
+</head>
+
+<body>
+<h1 style="margin-bottom:50px">My Photo Gallery</h1>
+<div class="row">
+<div class="col-lg-4"> 
+<div id="box">
+	<p id="MenuTag", style="border:1px solid black;">&nbspNatrue&nbsp</p>
+	<section>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</section>
+	<p style="text-align: center;">
+		<img src="beach.png" width="300">
+	</p>
+	
+</div>
+</div>
+
+<div class="col-lg-4">
+<div id="box">
+	<p id="MenuTag", style="border:1px solid black;">&nbspArchitecture&nbsp</p>
+	<section>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. </section>
+	<p style="text-align: center;">
+		<img src="building.png" width="300" >
+	</p>
+</div>
+</div>
+
+<div class="col-lg-4">
+	<div id="box">
+	<p id="MenuTag", style="border:1px solid black;">&nbspPortrait&nbsp</p>
+	<section>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. </section>
+	<p style="text-align: center;">
+		<img src="child.png" width="300">
+	</p>
+</div>
+</div>
+</div>
+</body>
+
+</html>
+
